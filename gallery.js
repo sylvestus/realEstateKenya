@@ -88,3 +88,6 @@ $(document).ready(function() {
         $('.text8').addClass('hide8');
     });
 });
+
+
+//button
