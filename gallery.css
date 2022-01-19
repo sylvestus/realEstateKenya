@@ -25,7 +25,10 @@ h3 {
 }
 
 .hold {
-    background: linear-gradient(135deg, #FD6E6A 0%, #FFC600 100%);
+  padding: 150px;
+  padding-top: 5px;
+  padding-bottom: 50px;
+  background: linear-gradient(135deg, #FD6E6A 0%, #FFC600 100%);
 }
 
 #part1,
