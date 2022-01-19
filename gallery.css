@@ -1,6 +1,6 @@
 body {
-    background: linear-gradient(135deg, #FD6E6A 0%, #FFC600 100%);
     background-repeat: no-repeat;
+    color: #155263;
 }
 
 .header img {
@@ -20,21 +20,49 @@ nav {
     float: right;
 }
 
-#part1 {
+h3 {
+    text-align: center
+}
+
+.hold {
+    background: linear-gradient(135deg, #FD6E6A 0%, #FFC600 100%);
+}
+
+#part1,
+#part2,
+#part3,
+#part4,
+#part5,
+#part6,
+#part7,
+#part8 {
     position: relative;
 }
 
-.text1 {
+.text1,
+.text2,
+.text3,
+.text4,
+.text5,
+.text6,
+.text7,
+.text8 {
     font-weight: bold;
     z-index: 1;
     position: absolute;
     left: 5%;
     top: 30%;
     font-size: large;
-    color: white;
-    background-color: black;
+    color: black;
 }
 
-.hide1 {
+.hide1,
+.hide2,
+.hide3,
+.hide4,
+.hide5,
+.hide6,
+.hide7,
+.hide8 {
     display: none;
 }
