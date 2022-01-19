@@ -64,3 +64,16 @@ ul li{
     width: 400px;
     margin: 10px;
 }
+.footer{
+    background-color: darkgray;
+    background-size: cover;
+}
+.info{
+    display:flex ;
+    justify-content: space-evenly;
+}
+.details{
+    display:flex ;
+    justify-content: space-evenly;
+    margin-top: -90px;
+}
