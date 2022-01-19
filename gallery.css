@@ -19,3 +19,22 @@ h4 {
 nav {
     float: right;
 }
+
+#part1 {
+    position: relative;
+}
+
+.text1 {
+    font-weight: bold;
+    z-index: 1;
+    position: absolute;
+    left: 5%;
+    top: 30%;
+    font-size: large;
+    color: white;
+    background-color: black;
+}
+
+.hide1 {
+    display: none;
+}
