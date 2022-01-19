@@ -33,7 +33,15 @@ ul li{
     height: 600px;
     padding-top: 100px;
 }
-.about{
+.services{
     display: flex;
     justify-content: space-evenly;
+}
+.serviceC{
+    text-align: center;
+}
+.service{
+    border: 5px solid blue;
+    text-align: center;
+    margin: 10px;
 }
