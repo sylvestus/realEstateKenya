@@ -1,3 +1,39 @@
+.intro{
+    background-image: url(https://www.lucasfox.com/news-and-press/wp-content/uploads/2019/06/IBZ14622-2-672x450.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 1400px;
+    height: 600px;
+
+}
+.phase1{
+    display: flex;
+    justify-content: space-evenly;
+    float: right;
+
+}
 .nav{
     top: 30px;
+}
+ul li{
+    list-style: none;
+    /* margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px; */
+    display: inline-block;
+    top: -70px;
+   margin: 0 15px;
+}
+
+.head{
+    text-align: center;
+    background-image: url(images/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    padding-top: 100px;
+}
+.about{
+    display: flex;
+    justify-content: space-evenly;
 }
