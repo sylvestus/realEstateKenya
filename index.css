@@ -56,10 +56,12 @@ ul li{
 .galleryA,.galleryB{
     display: flex;
     justify-content: space-evenly;
+    text-align: center;
+    
     
 }
 .gallery{
-    border: 1px solid black;
+    
     height: 400px;
     width: 400px;
     margin: 10px;
