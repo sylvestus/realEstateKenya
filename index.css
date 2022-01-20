@@ -79,3 +79,7 @@ ul li{
     justify-content: space-evenly;
     margin-top: -90px;
 }
+.copyright{
+    text-align: center;
+    border: 1px solid gray;
+}
