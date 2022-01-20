@@ -24,28 +24,70 @@
 </head>
 
 <body>
+    <div class="navbar">
+        <div class="logo"><img src="images/logo.png" alt=""></div>
+        <div class="navbar_elements" id="navbar_elements">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
 
-    <div class="navig">
-        <span class="log"><img src="images/logo.png" alt=""></span>
-        <li>register/login</li>
-        <li>About</li>
-        <li>menu</li>
-        <li>Home</li>
+            <ul>
+                <li>Home</li>
+                <li>Product</li>
+                <li>Contact Us</li>
+                <li>Login/Register</li>
+
+
+
+            </ul>
+        </div>
+        <i class="fa fa-bars " onclick="showMenu()" id="bar_logo"></i>
     </div>
+
     <div class="container-fluid">
         <div class="row justify-content-end">
             <div class="col-md-4 keja">
-                <h3>keja yangu</h3> <br>
-                <P>lets do the house hunting for you </br>
-                    we ndo husler wetu </P>
-                <button type="button" class="btn btn-outline-primary">try our services</button>
+                <span class="txt">
+                    <h3>keja yangu</h3> <br>
+                    <P>lets do the house hunting for you </br>
+                        we ndo husler wetu </P>
+                    <button type="button" class="btn btn-outline-primary">try our services</button>
+                </span>
             </div>
             <div class="col-md-7 subnav">
-
+                <img src="images/nnn.jpg" alt="">
             </div>
 
         </div>
     </div>
+
+    <div class="container justify-content-evenly categry">
+        <center>
+            <h3>OUR PRODUCTS CATEGORIES SAMPLES</h3>
+        </center>
+
+        <div class="row">
+
+            <div class="col-md-3">
+                <a href="bedsitters.html">
+                    <h5>BEDSITTERS</h5>
+                </a>
+            </div>
+            <div class="col-md-3">
+                <a href="onebedroom.html">
+                    <h5>ONE BEDROOMS</h5>
+                </a>
+            </div>
+            <div class="col-md-3">
+                <a href="twobedrooms.html">
+                    <h5>TWO BEDROOMS</h5>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+
+  
+    
     <div class="container-fluid">
         <div class="row align-items-center">
             <center class="heads">
@@ -78,8 +120,9 @@
                     To see more images and details <a href="">click here</a></p>
                 <span class="price"> price per month: </span> <span class="amount">ksh.6000</span>
             </div>
+            <span><button type="button" class="btn btn-outline-primary more moreBn" id="morebutn">show more</button></span>
         </div>
-        <div class="row align-items-center">
+        <div class="row align-items-center more1" id="more">
             <div class="col-md-4">
                 <img src="images/l.jpeg" alt="">
                 <h4>River breeze courts</h4>
@@ -106,10 +149,11 @@
                     To see more images and details <a href="">click here</a></p>
                 <span class="price"> price per month: </span> <span class="amount">ksh.6000</span>
             </div>
-            <span><button type="button" class="btn btn-outline-primary more">show more</button></span>
+           
         </div>
 
     </div>
+    
     <div class="container-fluid">
         <div class="row align-items-center">
             <center class="heads">
@@ -122,7 +166,7 @@
                     deserunt aliquid nisi nostrum suscipit error molestias totam sit? Nesciunt quae, excepturi ratione
                     perspiciatis aliquid mollitia omnis?
                     To see more images and details <a href="">click here</a></p>
-                     <span class="price"> price per month: </span> <span class="amount">ksh.6000</span>
+                <span class="price"> price per month: </span> <span class="amount">ksh.6000</span>
             </div>
             <div class="col-md-4">
                 <img src="images/g.jpeg" alt="">
@@ -131,7 +175,7 @@
                     laudantium explicabo consectetur odio cupiditate. Quia explicabo deserunt doloremque esse modi!
                     Similique labore fugiat praesentium temporibus!
                     To see more images and details <a href="">click here</a></P>
-                    <span class="price"> price per month: </span> <span class="amount">ksh.6000</span>
+                <span class="price"> price per month: </span> <span class="amount">ksh.6000</span>
             </div>
             <div class="col-md-4">
                 <img src="images/hs.jpeg" alt="">
@@ -140,10 +184,11 @@
                     ipsa aliquid rem at dolores itaque voluptates est atque ullam soluta excepturi recusandae, quas, ut
                     deserunt omnis.
                     To see more images and details <a href="">click here</a></p>
-                    <span class="price"> price per month: </span> <span class="amount">ksh.6000</span>
+                <span class="price"> price per month: </span> <span class="amount">ksh.6000</span>
             </div>
+            <span><button type="button" class="btn btn-outline-primary more moreBn2" id="morebutn">show more</button></span>
         </div>
-        <div class="row align-items-center">
+        <div class="row align-items-center more2">
             <div class="col-md-4">
                 <img src="images/l.jpeg" alt="">
                 <h4>River breeze courts</h4>
@@ -151,7 +196,7 @@
                     ratione. Vitae dignissimos quibusdam ipsa nulla explicabo. Nostrum quis mollitia iure voluptate
                     vitae ut atque praesentium?
                     To see more images and details <a href="">click here</a></p>
-                    <span class="price"> price per month: </span> <span class="amount">ksh.6000</span>
+                <span class="price"> price per month: </span> <span class="amount">ksh.6000</span>
             </div>
             <div class="col-md-4">
                 <img src="images/hse.jpeg" alt="">
@@ -160,7 +205,7 @@
                     pariatur nulla. Distinctio autem sit quidem nesciunt qui impedit vero natus aspernatur in? Eius,
                     delectus incidunt.
                     To see more images and details <a href="">click here</a></p>
-                    <span class="price"> price per month: </span> <span class="amount">ksh.6000</span>
+                <span class="price"> price per month: </span> <span class="amount">ksh.6000</span>
             </div>
             <div class="col-md-4">
                 <img src="images/k.jpeg" alt="">
@@ -169,11 +214,11 @@
                     necessitatibus, repellat possimus earum soluta nobis error! Voluptates quod ipsum eveniet deleniti
                     accusamus necessitatibus tempore et commodi?
                     To see more images and details <a href="">click here</a></p>
-                    <span class="price"> price per month: </span> <span class="amount">ksh.6000</span>
+                <span class="price"> price per month: </span> <span class="amount">ksh.6000</span>
             </div>
-            <span><button type="button" class="btn btn-outline-primary more">show more</button></span>
+            
         </div>
-
+       
     </div>
     <div class="container-fluid">
         <div class="row align-items-center">
@@ -187,7 +232,7 @@
                     deserunt aliquid nisi nostrum suscipit error molestias totam sit? Nesciunt quae, excepturi ratione
                     perspiciatis aliquid mollitia omnis?
                     To see more images and details <a href="">click here</a></p>
-                    <span class="price"> price per month: </span> <span class="amount">ksh.6000</span>
+                <span class="price"> price per month: </span> <span class="amount">ksh.6000</span>
             </div>
             <div class="col-md-4">
                 <img src="images/g.jpeg" alt="">
@@ -196,7 +241,7 @@
                     laudantium explicabo consectetur odio cupiditate. Quia explicabo deserunt doloremque esse modi!
                     Similique labore fugiat praesentium temporibus!
                     To see more images and details <a href="">click here</a></P>
-                    <span class="price"> price per month: </span> <span class="amount">ksh.6000</span>
+                <span class="price"> price per month: </span> <span class="amount">ksh.6000</span>
             </div>
             <div class="col-md-4">
                 <img src="images/hs.jpeg" alt="">
@@ -205,10 +250,11 @@
                     ipsa aliquid rem at dolores itaque voluptates est atque ullam soluta excepturi recusandae, quas, ut
                     deserunt omnis.
                     To see more images and details <a href="">click here</a></p>
-                    <span class="price"> price per month: </span> <span class="amount">ksh.6000</span>
+                <span class="price"> price per month: </span> <span class="amount">ksh.6000</span>
             </div>
+            <span><button type="button" class="btn btn-outline-primary more moreBn3" id="morebutn">show more</button></span>
         </div>
-        <div class="row align-items-center">
+        <div class="row align-items-center more3">
             <div class="col-md-4">
                 <img src="images/l.jpeg" alt="">
                 <h4>River breeze courts</h4>
@@ -216,7 +262,7 @@
                     ratione. Vitae dignissimos quibusdam ipsa nulla explicabo. Nostrum quis mollitia iure voluptate
                     vitae ut atque praesentium?
                     To see more images and details <a href="">click here</a></p>
-                    <span class="price"> price per month: </span> <span class="amount">ksh.6000</span>
+                <span class="price"> price per month: </span> <span class="amount">ksh.6000</span>
             </div>
             <div class="col-md-4">
                 <img src="images/hse.jpeg" alt="">
@@ -225,7 +271,7 @@
                     pariatur nulla. Distinctio autem sit quidem nesciunt qui impedit vero natus aspernatur in? Eius,
                     delectus incidunt.
                     To see more images and details <a href="">click here</a></p>
-                    <span class="price"> price per month: </span> <span class="amount">ksh.6000</span>
+                <span class="price"> price per month: </span> <span class="amount">ksh.6000</span>
             </div>
             <div class="col-md-4">
                 <img src="images/k.jpeg" alt="">
@@ -234,27 +280,28 @@
                     necessitatibus, repellat possimus earum soluta nobis error! Voluptates quod ipsum eveniet deleniti
                     accusamus necessitatibus tempore et commodi?
                     To see more images and details <a href="">click here</a></p>
-                    <span class="price"> price per month: </span> <span class="amount">ksh.6000</span>
+                <span class="price"> price per month: </span> <span class="amount">ksh.6000</span>
             </div>
-            <span><button type="button" class="btn btn-outline-primary more">show more</button></span>
+            <span><button type="button" class="btn btn-outline-primary more" id="morebutn">show more</button></span>
         </div>
-    
+
     </div>
     <div class="container-fluid footer justify-content-center ">
         <div class="row">
-            <div class="col" fkeja>
-              <p>Keja yangu</p>
+            <div class="col fkeja">
+                <p>Keja yangu</p>
             </div>
             <div class="col list">
                 <h5>sitemap</h5>
-              <li>Home</li>
-              <li>Services</li>
-              <li>About</li>
-              <li>Contacts</li>  
+                <li>Home</li>
+                <li>Services</li>
+                <li>About</li>
+                <li>Contacts</li>
             </div>
             <div class="col">
                 subscribe to our newsletter <br>
-                <input type="text" placeholder="Enter your email address" class="placeholder-glow bg-transparent email "> <br><br>
+                <input type="text" placeholder="Enter your email address"
+                    class="placeholder-glow bg-transparent email "> <br><br>
                 <button type="button" class="btn btn-outline-primary "> subscribe</button>
 
             </div>
