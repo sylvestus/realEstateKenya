@@ -80,11 +80,12 @@
     text-align: center;
     height: 600px;
     padding-top: 100px;
-    background-image: url("images/m.jpeg");
+    background-image: url("images/jj.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     image-rendering: -webkit-optimize-contrast;
+    color: snow;
 
 }
 
