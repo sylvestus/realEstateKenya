@@ -89,5 +89,20 @@ $(document).ready(function() {
     });
 });
 
+//datepicker
+$(document).ready(function() {
+    $('#date').datepicker({
+        autoclose: true,
+        format: "dd/mm/yyyy"
+    });
+});
 
-//button
+//display name
+
+const formDetails = document.getElementById("form");
+formDetails.addEventListener("submit", async(ev) => {
+    ev.preventDefault();
+    var name = document.getElementById("name").value;
+    var tourDate = document.getElementById("date").value;
+    alert("Hello " + name + "! . Your house tour  will be on " + tourDate);
+})
