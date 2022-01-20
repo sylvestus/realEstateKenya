@@ -14,150 +14,154 @@
 </head>
 
 <body>
-    <div class="container-fluid">
-        <div class="header">
-            <img src="images/logo.png" style="width:100px; height:100px">
-            <h4>kejaYangu</h4>
-            <nav class="navbar navbar-expand-lg navbar-light ">
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <a class="nav-item nav-link active" href="index.html">Home </a>
-                        <a class="nav-item nav-link active" href="">Contact</a>
-                        <a class="nav-item nav-link active" href="products.html">Products</a>
-                        <a class="nav-item nav-link active" href="#">About</a>
-                    </div>
-                </div>
-            </nav>
-
+    <div class="navbar">
+        <div class="logo"><img src="images/logo.png" alt=""></div>
+        <div class="navbar_elements" id="navbar_elements">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li>Home</li>
+                <li>Product</li>
+                <li>Contact Us</li>
+                <li>Login/Register</li>
+            </ul>
         </div>
-        <div class="gallery">
-            <h1>Welcome To Our Gallery</h1>
-            <div class="hold container-fluid">
-                <h1>Bedsitters</h1>
-                <div class="row">
-                    <div class="col-md-3">
-                        <div id="part1">
-                            <div class="text1 hide1">
-                                <p>Bedsitter within Kinoo.<br>Kitchen area<br> Bedroom and washroom.</p>
-                            </div>
-                            <a><img src="images/3bedroom.jpeg"></a>
+        <i class="fa fa-bars " onclick="showMenu()" id="bar_logo"></i>
+    </div>
+    <div class="gallery">
+        <h1>Welcome To Our Gallery</h1>
+        <div class="hold container-fluid">
+            <h1>Bedsitters</h1>
+            <div class="row">
+                <div class="col-md-3">
+                    <div id="part1">
+                        <div class="text1 hide1">
+                            <p>Front view section</p>
                         </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div id="part2">
-                            <div class="text2 hide2">
-                                <p>Bedsitter within Kinoo.<br>Kitchen area<br> Bedroom and washroom.</p>
-                            </div>
-                            <a><img src="images/bedsitter.jpeg"></a>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div id="part3">
-                            <div class="text3 hide3">
-                                <p>Bedsitter within Kinoo.<br>Kitchen area<br> Bedroom and washroom.</p>
-                            </div>
-                            <a><img src="images/4room.jpeg"></a>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div id="part4">
-                            <div class="text4 hide4">
-                                <p>Bedsitter within Kinoo.<br>Kitchen area<br> Bedroom and washroom.</p>
-                            </div>
-                            <a><img src="images/4bedrroom.jpeg"></a>
-                        </div>
+                        <a><img src="images/3bedroom.jpeg"></a>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-3">
-                        <div id="part5">
-                            <div class="text5 hide5">
-                                <p>Bedsitter within Kinoo.<br>Kitchen area<br> Bedroom and washroom.</p>
-                            </div>
-                            <a><img src="images/house.jpeg"></a>
+                <div class="col-md-3">
+                    <div id="part2">
+                        <div class="text2 hide2">
+                            <p>Kitcchen area</p>
                         </div>
+                        <a><img src="images/bedsitter.jpeg"></a>
                     </div>
-                    <div class="col-md-3">
-                        <div id="part6">
-                            <div class="text6 hide6">
-                                <p>Bedsitter within Kinoo.<br>Kitchen area<br> Bedroom and washroom.</p>
-                            </div>
-                            <a><img src="images/1bedroom.jpeg"></a>
+                </div>
+                <div class="col-md-3">
+                    <div id="part3">
+                        <div class="text3 hide3">
+                            <p>Backview section</p>
                         </div>
+                        <a><img src="images/4room.jpeg"></a>
                     </div>
-                    <div class="col-md-3">
-                        <div id="part7">
-                            <div class="text7 hide7">
-                                <p>Bedsitter within Kinoo.<br>Kitchen area<br> Bedroom and washroom.</p>
-                            </div>
-                            <a><img src="images/6.jpeg"></a>
+                </div>
+                <div class="col-md-3">
+                    <div id="part4">
+                        <div class="text4 hide4">
+                            <p>Entire view section</p>
                         </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div id="part8">
-                            <div class="text8 hide8">
-                                <p>Bedsitter within Kinoo.<br>Kitchen area<br> Bedroom and washroom.</p>
-                            </div>
-                            <a><img src="images/west.jpeg"></a>
-                        </div>
+                        <a><img src="images/4bedrroom.jpeg"></a>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="container-fluid hold2">
-            <h2>BOOK APPOINTMENT</h2>
-            <div class="row book">
-                <div class="col-md-5 left">
-                    <form action="#" id="form"><br>
-                        <h3>Would you like to book an appointment with us?<br>Kindly fill the form below:</h3><br>
-
-                        <div class="form-group">
-                            <label for="name">Name:</label><br>
-                            <input type="text" id="name" required><br><br></div>
-                        <div class="form-group">
-                            <label for="phone">Phone number:</label><br>
-                            <input type="number" id="phone" required><br><br></div>
-                        <div class="form-group">
-                            <label for="email">Email:</label><br>
-                            <input type="text" id="email" required><br><br></div>
-                        <!-- date picker -->
-                        <div class="form-group">
-                            <label for="date">Date of Birth:</label><br>
-                            <input type="date" name="date" id="date" required><br><br>
+            <div class="row">
+                <div class="col-md-3">
+                    <div id="part5">
+                        <div class="text5 hide5">
+                            <p>Playground section <br>suitable for kids play</p>
                         </div>
-                        <!-- end of date picker -->
-                        <div class="form-group">
-                            <label for="mess">Message:</label><br>
-                            <input type="text" id="mess" required> <br><br><br>
-                        </div>
-                        <button type="submit" id="submit"> SUBMIT</button><br>
-                        <div class="display"></div>
-
-                    </form>
+                        <a><img src="images/house.jpeg"></a>
+                    </div>
                 </div>
-                <div id="book" class=" col-md-5 ">
-                    <br>
-                    <img src="images/Color.jpeg " style="overflow-x:hidden ">
+                <div class="col-md-3">
+                    <div id="part6">
+                        <div class="text6 hide6">
+                            <p>Living room view</p>
+                        </div>
+                        <a><img src="images/sittingroom.jpeg"></a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div id="part7">
+                        <div class="text7 hide7">
+                            <p>Bedroom section</p>
+                        </div>
+                        <a><img src="images/6.jpeg"></a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div id="part8">
+                        <div class="text8 hide8">
+                            <p>Executive Kitchen</p>
+                        </div>
+                        <a><img src="images/west.jpeg"></a>
+                    </div>
                 </div>
             </div>
+            <h1>Our Bedsitters have the following features:</h1>
+            <ul>
+                <li>Hot Showers</li>
+                <li>Stable Wifi-Internet conection</li>
+                <li>24/7 Security</li>
+                <li>CCTV Cameras</li>
+                <li>Electricity</li>
+            </ul>
         </div>
-        <div class="container-fluid footer justify-content-center ">
-            <div class="row ">
-                <div class="col fkeja">
-                    <p>Keja yangu</p>
-                </div>
-                <div class="col list ">
-                    <h5>Sitemap</h5>
-                    <li>Home</li>
-                    <li>Services</li>
-                    <li>About</li>
-                    <li>Contacts</li>
-                </div>
-                <div class="col">
-                    subscribe to our newsletter <br>
-                    <input type="text " placeholder="Enter your email address " class="placeholder-glow bg-transparent email "> <br><br>
-                    <button type="button " class="btn btn-outline-primary "> subscribe</button>
-                </div>
+    </div>
+    <div class="container-fluid hold2">
+        <h2>BOOK APPOINTMENT</h2>
+        <div class="row book">
+            <div class="col-md-5 left">
+                <form action="#" id="form"><br>
+                    <h3>Would you like to book an appointment with us?<br>Kindly fill the form below:</h3><br>
+
+                    <div class="form-group">
+                        <label for="name">Name:</label><br>
+                        <input type="text" id="name" required><br><br></div>
+                    <div class="form-group">
+                        <label for="phone">Phone number:</label><br>
+                        <input type="number" id="phone" required><br><br></div>
+                    <div class="form-group">
+                        <label for="email">Email:</label><br>
+                        <input type="text" id="email" required><br><br></div>
+                    <!-- date picker -->
+                    <div class="form-group">
+                        <label for="date">Date of Birth:</label><br>
+                        <input type="date" name="date" id="date" required><br><br>
+                    </div>
+                    <!-- end of date picker -->
+                    <div class="form-group">
+                        <label for="mess">Message:</label><br>
+                        <input type="text" id="mess" required> <br><br><br>
+                    </div>
+                    <button type="submit" id="submit"> SUBMIT</button><br>
+                    <div class="display"></div>
+
+                </form>
+            </div>
+            <div id="book" class=" col-md-5 ">
+                <br>
+                <img src="images/Color.jpeg " style="overflow-x:hidden ">
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid footer justify-content-center ">
+        <div class="row ">
+            <div class="col fkeja">
+                <p>Keja yangu</p>
+            </div>
+            <div class="col list ">
+                <h5>Sitemap</h5>
+                <li>Home</li>
+                <li>Services</li>
+                <li>About</li>
+                <li>Contacts</li>
+            </div>
+            <div class="col">
+                subscribe to our newsletter <br>
+                <input type="text " placeholder="Enter your email address " class="placeholder-glow bg-transparent email "> <br><br>
+                <button type="button " class="btn btn-outline-primary "> subscribe</button>
             </div>
         </div>
     </div>

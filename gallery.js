@@ -1,3 +1,17 @@
+//function to show menu elements
+var showMenu = function() {
+    document.getElementById("navbar_elements").style.right = "0px";
+    document.getElementById("bar_logo").style.visibility = "hidden";
+};
+//function to hide menu elements`
+function hideMenu() {
+    var navbarElements = document.getElementById("navbar_elements");
+    navbarElements.style.right = "-200px";
+    document.getElementById("bar_logo").style.visibility = "visible";
+}
+
+
+
 $(document).ready(function() {
     $('#part1 a img').hover(function() {
         $(this).stop().animate({
