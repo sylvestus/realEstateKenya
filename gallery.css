@@ -1,0 +1,205 @@
+    body {
+        background-repeat: no-repeat;
+        color: #155263;
+    }
+    /* css media query */
+    
+    .navbar .fa {
+        visibility: visible;
+        margin-left: 10px;
+        display: block;
+        margin: 10px;
+        font-size: 26px;
+        cursor: pointer;
+    }
+    
+    .navbar {
+        position: relative;
+        height: 150px;
+        overflow: hidden;
+    }
+    
+    .navbar .logo {
+        width: 40%;
+        display: inline;
+    }
+    
+    .navbar .logo img {
+        height: 90%;
+        width: 90%;
+        display: inline;
+    }
+    
+    .bar_logo {
+        margin-top: 0px;
+    }
+    
+    .navbar .navbar_elements {
+        position: absolute;
+        background-color: transparent;
+        height: 40vh;
+        width: 150px;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 2;
+        transform: 1s;
+    }
+    
+    .navbar .navbar_elements li {
+        position: relative;
+        z-index: 2;
+    }
+    /* end */
+    /* new nav bar style */
+    
+    .navbar {
+        width: 100%;
+        height: auto;
+        background-color: rgb(247, 176, 133);
+    }
+    
+    .navbar .fa {
+        visibility: hidden;
+    }
+    
+    .navbar .logo {
+        width: 10%;
+        display: inline;
+    }
+    
+    .navbar .logo img {
+        height: 100%;
+        width: 100%;
+        display: inline;
+    }
+    
+    .navbar .navbar_elements {
+        display: block;
+        width: 80%;
+    }
+    
+    .navbar .navbar_elements li {
+        display: inline;
+        padding-left: 15%;
+        margin-right: 1px;
+        transition: 0.2s;
+    }
+    
+    a {
+        color: rgb(185, 41, 41);
+        font-size: 20px;
+        padding-right: 30px;
+    }
+    
+    a:link {
+        color: whitesmoke;
+    }
+    /* visited link */
+    
+    a:visited {
+        color: whitesmoke;
+    }
+    /* mouse over link */
+    
+    a:hover {
+        color: #FFC600;
+    }
+    /* selected link */
+    
+    a:active {
+        color: #FFC600;
+    }
+    
+    h4 {
+        display: inline-block;
+        flex-direction: row;
+        text-decoration: bolder;
+        font-weight: bolder;
+    }
+    
+    nav {
+        float: right;
+    }
+    
+    h3 {
+        text-align: center
+    }
+    
+    .hold {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        background: linear-gradient(135deg, #FD6E6A 0%, #FFC600 100%);
+    }
+    
+    .col-md-3 img {
+        height: 300px;
+        width: 100%;
+        overflow-x: hidden;
+    }
+    
+    #part1,
+    #part2,
+    #part3,
+    #part4,
+    #part5,
+    #part6,
+    #part7,
+    #part8 {
+        position: relative;
+        padding: 10px;
+    }
+    
+    .text1,
+    .text2,
+    .text3,
+    .text4,
+    .text5,
+    .text6,
+    .text7,
+    .text8 {
+        font-weight: bold;
+        z-index: 1;
+        position: absolute;
+        left: 5%;
+        top: 30%;
+        font-size: large;
+        color: rgb(255, 255, 255);
+    }
+    
+    .hide1,
+    .hide2,
+    .hide3,
+    .hide4,
+    .hide5,
+    .hide6,
+    .hide7,
+    .hide8 {
+        display: none;
+    }
+    
+    .hold2 {
+        background-color: #fdc26a;
+    }
+    
+    .book h3 {
+        text-align: left;
+    }
+    
+    li {
+        font-size: x-large;
+    }
+    
+    #book img {
+        overflow: hidden;
+        height: 500px;
+        width: 100%;
+    }
+    
+    .hold2 h2 {
+        text-align: center
+    }
+    
+    .footer {
+        background-color: rgb(247, 176, 133);
+    }
