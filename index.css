@@ -110,9 +110,10 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    background-color: rgb(226, 133, 75);
     
 }
-.service h1,h2{
+.service h1,h2,p{
     text-align: center;
 
 }
@@ -193,4 +194,5 @@
 .copyright{
     text-align: center;
     border: 1px solid gray;
+    background-color: rgb(247,176,133);
 }
