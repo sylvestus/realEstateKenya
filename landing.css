@@ -1,3 +1,9 @@
+body {
+  background-repeat: no-repeat;
+  color: #155263;
+  background-color: aliceblue;
+  font-family: 'Playfair Display', serif;
+}
 *,
 ::before,
 ::after {
