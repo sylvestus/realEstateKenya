@@ -1,6 +1,8 @@
     body {
         background-repeat: no-repeat;
         color: #155263;
+        background-color: aliceblue;
+        font-family: 'Playfair Display', serif;
     }
     /* css media query */
     
@@ -56,7 +58,8 @@
     .navbar {
         width: 100%;
         height: auto;
-        background-color: rgb(247, 176, 133);
+        background: #00204A;
+        color: white;
     }
     
     .navbar .fa {
@@ -201,5 +204,6 @@
     }
     
     .footer {
-        background-color: rgb(247, 176, 133);
+        background: #00204A;
+        color: white;
     }

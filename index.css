@@ -5,7 +5,10 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+body{
+  background-color: aliceblue;
+  font-family: 'Playfair Display', serif;
+}
 
 
 .navbar .fa {
@@ -78,6 +81,11 @@
   padding-left: 15%;
   margin-right: 1px;
   transition: 0.2s;
+
+}
+.navbar_elements li a{
+  text-decoration: none;
+  color: white;
 }
 
 .head{
