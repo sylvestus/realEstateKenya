@@ -1,0 +1,234 @@
+body{
+    background-color: aliceblue;
+    font-family: 'Playfair Display', serif;
+}
+
+.navbar {
+  width: 100%;
+  height: auto;
+  background: #00204A;
+  color: white;
+}
+.navbar .fa {
+  visibility: hidden;
+}
+.navbar .logo {
+  width: 10%;
+  display: inline;
+}
+.navbar .logo img {
+  height: 100%;
+  width: 100%;
+  display: inline;
+}
+.navbar .navbar_elements {
+  display: block;
+
+  width: 80%;
+}
+
+.navbar .navbar_elements li {
+  display: inline;
+  padding-left: 15%;
+  margin-right: 1px;
+  transition: 0.2s;
+}
+
+
+
+
+
+
+
+.log img {
+    margin-left: 10px;
+  display: inline;
+  height: 100px;
+  width: 100px;
+}
+.keja{
+  text-align: center;
+  width: 40%;
+  
+}
+
+.keja .txt h3{
+  margin-top: 70px;
+ 
+}
+.keja .btn{
+margin-top: 20px;
+}
+.subnav{
+    
+   height: 400px; 
+  
+   
+}
+.subnav img{
+  height: 400px;
+  width: 100%;
+}
+
+.categry{
+ text-align: center;
+}
+.categry .row{
+  margin-top: 50px;
+  margin-bottom: 50px;
+ 
+  
+}
+.categry .row a{
+  color: #172b4d;
+  text-decoration: none;
+  
+}
+.categry .row a:hover {
+  background-color: aquamarine;
+}
+
+.heads{
+    
+    margin-bottom: 3%;
+}
+.col-md-4{
+  height: 500px;
+}
+
+.col-md-4 img{
+  height: 250px;
+    width: 100%;
+    
+}
+.more{
+    float: right;
+    margin-bottom: 20px;
+}
+.footer{
+  background: #00204A;
+  color: white;
+}
+.email{
+  outline: none;
+  border: none;
+}
+.list li{
+list-style: none;
+transform: .3s linear;
+}
+.list li:hover{
+  background-color: #fff;
+  color: #2f3640;
+  transform: scale(1.1);
+}
+.lst i{
+  font-size: x-large;
+  float: right;
+}
+.navig .bars{
+  font-size: x-large; 
+  display: none !important;
+}
+.navig .close{
+  flex-direction: row;
+  display: none;
+
+}
+
+.more1{
+   display: none;
+   
+}
+.more2{
+  flex-direction: row;
+  display: none;
+}
+.more3{
+  flex-direction: row;
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+
+
+  .navbar .fa {
+    visibility: visible;
+    margin-left: 10px;
+    display: block;
+    margin: 10px;
+    font-size: 26px;
+    cursor: pointer;
+  }
+  .navbar {
+    position: relative;
+    height: 150px;
+    overflow: hidden;
+  }
+
+.navbar .logo {
+  width: 40%;
+  display: inline;
+}
+
+.navbar .logo img {
+  height: 90%;
+  width: 90%;
+  display: inline;
+}
+  .bar_logo{
+      margin-top: 0px;
+  }
+  
+   .navbar .navbar_elements {
+    position: absolute;
+    background-color: transparent;
+    height: 40vh;
+    width: 150px;
+    top: 0;
+    right: -200px;
+    text-align: left;
+    z-index: 2;
+    transform: 1s;
+  }
+
+  .navbar .navbar_elements li {
+    position: relative;
+    z-index: 2;
+    
+  }
+
+
+
+  
+
+  .keja {
+    width: 100vw;
+    text-align: center;
+  }
+  .subnav{
+    width: 100vw;
+    overflow-x: hidden;
+  }
+  .subnav img{
+    width: 100vw;
+    height: 300px;
+  }
+ .lst.active{
+   display: block;
+ }
+ .keja img{
+  height: 400px;
+}
+.more{
+  float: right;
+  margin-bottom: 100px;
+}
+ #morebutn{
+  margin-top: 50px;
+ }
+ .hidnrow{
+   flex-direction: row;
+ }
+ 
+}
