@@ -1,6 +1,8 @@
+
+
 # Real Estate Kenya
 #### {A online real Estate Agent}, {20/01/2022}
-#### By **{Micheal musili}**
+#### By **{Micheal musili,Mercy Bore, Sylvestus Sigei}**
 
 
 
@@ -34,7 +36,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 Copyright (c) {2021}
 ## contributors
-* 1: Sylvestus 
-* 2: Mercy Boore
+* 1: Sylvestus Sigei
+* 2: Mercy Bore
 * 3: Michael musili
  
+
