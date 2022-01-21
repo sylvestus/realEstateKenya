@@ -1,12 +1,14 @@
     body {
         background-repeat: no-repeat;
+          background-color: aliceblue;
+    font-family: 'Playfair Display', serif;
     }
     
     .navbar {
         width: 100%;
         height: auto;
-        background-color: #00204A;
-        color: whitesmoke;
+       background: #00204A;
+  color: white;
     }
     
     .navbar .fa {
@@ -144,6 +146,6 @@
     }
     
     .footer {
-        background-color: #00204A;
-        color: whitesmoke;
+      background: #00204A;
+  color: white;
     }
