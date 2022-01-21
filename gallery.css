@@ -4,56 +4,6 @@
         background-color: aliceblue;
         font-family: 'Playfair Display', serif;
     }
-    /* css media query */
-    
-    .navbar .fa {
-        visibility: visible;
-        margin-left: 10px;
-        display: block;
-        margin: 10px;
-        font-size: 26px;
-        cursor: pointer;
-    }
-    
-    .navbar {
-        position: relative;
-        height: 150px;
-        overflow: hidden;
-    }
-    
-    .navbar .logo {
-        width: 40%;
-        display: inline;
-    }
-    
-    .navbar .logo img {
-        height: 90%;
-        width: 90%;
-        display: inline;
-    }
-    
-    .bar_logo {
-        margin-top: 0px;
-    }
-    
-    .navbar .navbar_elements {
-        position: absolute;
-        background-color: transparent;
-        height: 40vh;
-        width: 150px;
-        top: 0;
-        right: -200px;
-        text-align: left;
-        z-index: 2;
-        transform: 1s;
-    }
-    
-    .navbar .navbar_elements li {
-        position: relative;
-        z-index: 2;
-    }
-    /* end */
-    /* new nav bar style */
     
     .navbar {
         width: 100%;
@@ -90,9 +40,10 @@
     }
     
     a {
-        color: rgb(185, 41, 41);
+        color: whitesmoke;
         font-size: 20px;
         padding-right: 30px;
+        text-decoration: none;
     }
     
     a:link {
@@ -106,23 +57,20 @@
     /* mouse over link */
     
     a:hover {
-        color: #FFC600;
+        color: rgb(251, 251, 251);
     }
     /* selected link */
     
     a:active {
-        color: #FFC600;
+        color: rgb(255, 187, 61);
     }
+    /* end of navbar */
     
     h4 {
         display: inline-block;
         flex-direction: row;
         text-decoration: bolder;
         font-weight: bolder;
-    }
-    
-    nav {
-        float: right;
     }
     
     h3 {
@@ -132,7 +80,6 @@
     .hold {
         padding-top: 100px;
         padding-bottom: 100px;
-        background: linear-gradient(135deg, #FD6E6A 0%, #FFC600 100%);
     }
     
     .col-md-3 img {
@@ -179,10 +126,6 @@
     .hide7,
     .hide8 {
         display: none;
-    }
-    
-    .hold2 {
-        background-color: #fdc26a;
     }
     
     .book h3 {
